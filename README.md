@@ -1,17 +1,28 @@
 # data-extraction
+<img width="646" height="713" alt="image" src="https://github.com/user-attachments/assets/e001ba23-2a92-411b-8226-5035fd1c1f46" />
 
 This tool was created to scrape data from a specific website. With GUI for ease of use. With console display to track progress.
 
-It no longer works because I no longer have the login credentials.
+
 
 Features:
 
-You can login in the tool if you have the login credentials.
-Choose the starting date and and the end date range you want to scrape data.
-After you have inputted the login credentials you can get the list of all the stores available in the website.
-You have the option to select stores you want or select all.
-Extraction Mode - has the option to select "Per Day", "Consolidated", or "Per Month".
-Entity type - has the option to select "Primary", "Secondary", or "All".
-Class Category - has the optiont to select "Class A", "Class B" or "Class C"
-You can select you desired output directory where to save your data.
-*Vibe Coding only no manual coding involved.
+✨ Key Features
+Secure Authentication: Integrated login system with automated CSRF (Cross-Site Request Forgery) token retrieval and cookie session management.
+
+Dynamic Resource Sync: Fetches a real-time list of available locations/stores upon successful authentication.
+
+Date Range Selection: Custom start and end date parameters.
+
+Extraction Modes: Toggle between Daily, Monthly, or Consolidated data views.
+
+Entity Filtering: Filter by entity hierarchy (Primary, Secondary, or All).
+
+Class Categorization: Segment data by specific business classifications.
+
+Real-time Monitoring: Built-in console log to track extraction status, network retries, and file saving progress.
+
+Custom Export: User-defined output directories with automated unique filename generation to prevent data overwriting.
+
+
+*Vibe Coding only no manual coding involved.  
